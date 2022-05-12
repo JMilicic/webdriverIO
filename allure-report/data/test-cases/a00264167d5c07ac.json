@@ -1,0 +1,237 @@
+{
+  "uid" : "a00264167d5c07ac",
+  "name" : "Web Tables Sort Validation",
+  "fullName" : "Functional Testing on Application.Web Tables Sort Validation",
+  "historyId" : "63c4c029f4366e11d93f9b3c340d5a4c",
+  "time" : {
+    "start" : 1652265799255,
+    "stop" : 1652265800601,
+    "duration" : 1346
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1652265799255,
+        "stop" : 1652265800518,
+        "duration" : 1263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4206fa38e9d807f",
+        "name" : "Request",
+        "source" : "d4206fa38e9d807f.json",
+        "type" : "application/json",
+        "size" : 71
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1652265800518,
+        "stop" : 1652265800533,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f1dbd351ea40f785",
+        "name" : "Request",
+        "source" : "f1dbd351ea40f785.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "af7847348d44ceaa",
+        "name" : "Response",
+        "source" : "af7847348d44ceaa.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/413bec2a-7f78-4106-b94c-dd59b920b228/click",
+      "time" : {
+        "start" : 1652265800534,
+        "stop" : 1652265800570,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1652265800570,
+        "stop" : 1652265800590,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64a5302be68bc6d0",
+        "name" : "Request",
+        "source" : "64a5302be68bc6d0.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "edc1a0e950e34b14",
+        "name" : "Response",
+        "source" : "edc1a0e950e34b14.json",
+        "type" : "application/json",
+        "size" : 457
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/6b68ad1b-2043-4863-afaa-7f67c936863d/text",
+      "time" : {
+        "start" : 1652265800599,
+        "stop" : 0,
+        "duration" : -1652265800599
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/element/bd356b64-1db8-490b-9c63-13570f4e6fe0/text",
+        "time" : {
+          "start" : 1652265800600,
+          "stop" : 0,
+          "duration" : -1652265800600
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/element/5650d801-94c5-4708-8eee-9b90eca3c099/text",
+          "time" : {
+            "start" : 1652265800600,
+            "stop" : 0,
+            "duration" : -1652265800600
+          },
+          "status" : "unknown",
+          "steps" : [ {
+            "name" : "GET /session/:sessionId/element/2699ef92-20b3-45ac-929d-53be956ba94a/text",
+            "time" : {
+              "start" : 1652265800601,
+              "stop" : 0,
+              "duration" : -1652265800601
+            },
+            "status" : "unknown",
+            "steps" : [ {
+              "name" : "GET /session/:sessionId/element/9a2332c8-5a2b-4a25-8a66-eeb62e52d9c4/text",
+              "time" : {
+                "start" : 1652265800602,
+                "stop" : 0,
+                "duration" : -1652265800602
+              },
+              "status" : "unknown",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "hasContent" : false,
+              "shouldDisplayMessage" : false,
+              "attachmentsCount" : 0
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "hasContent" : true,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "hasContent" : true,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Functional Testing on Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Functional Testing on Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Web Tables Sort Validation"
+  }, {
+    "name" : "package",
+    "value" : "Functional Testing on Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a00264167d5c07ac.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

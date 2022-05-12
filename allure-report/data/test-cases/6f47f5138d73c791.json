@@ -1,0 +1,183 @@
+{
+  "uid" : "6f47f5138d73c791",
+  "name" : "Dynamic Dropdown Controls",
+  "fullName" : "UI Controls Test Suite.Dynamic Dropdown Controls",
+  "historyId" : "4b0cd1e2d5cbbcd06f332f6fbdf76b03",
+  "time" : {
+    "start" : 1652265813744,
+    "stop" : 1652265817019,
+    "duration" : 3275
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1652265813744,
+        "stop" : 1652265816775,
+        "duration" : 3031
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85157936337f5ea3",
+        "name" : "Request",
+        "source" : "85157936337f5ea3.json",
+        "type" : "application/json",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1652265816775,
+        "stop" : 1652265816935,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c008bad65b1a150",
+        "name" : "Request",
+        "source" : "7c008bad65b1a150.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "5c5384a18c757d0",
+        "name" : "Response",
+        "source" : "5c5384a18c757d0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/22cc8a8a-7225-499f-bcea-2f4a2abb133e/clear",
+      "time" : {
+        "start" : 1652265816936,
+        "stop" : 1652265816961,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/22cc8a8a-7225-499f-bcea-2f4a2abb133e/value",
+      "time" : {
+        "start" : 1652265816961,
+        "stop" : 1652265817001,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d32e5900df69c666",
+        "name" : "Request",
+        "source" : "d32e5900df69c666.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1652265817001,
+        "stop" : 1652265817019,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c9692f1011eff921",
+        "name" : "Request",
+        "source" : "c9692f1011eff921.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "b748a82fe114b81b",
+        "name" : "Response",
+        "source" : "b748a82fe114b81b.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "UI Controls Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Controls Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Dynamic Dropdown Controls"
+  }, {
+    "name" : "package",
+    "value" : "UI Controls Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f47f5138d73c791.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

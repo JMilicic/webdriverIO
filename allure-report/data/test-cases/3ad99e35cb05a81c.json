@@ -1,0 +1,177 @@
+{
+  "uid" : "3ad99e35cb05a81c",
+  "name" : "Checkbox Identification",
+  "fullName" : "UI Controls Test Suite.Checkbox Identification",
+  "historyId" : "d31f6128ce65209cea007f722bb6b04d",
+  "time" : {
+    "start" : 1652265817020,
+    "stop" : 1652265818010,
+    "duration" : 990
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1652265817020,
+        "stop" : 1652265817621,
+        "duration" : 601
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d97572118f404e0f",
+        "name" : "Request",
+        "source" : "d97572118f404e0f.json",
+        "type" : "application/json",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1652265817621,
+        "stop" : 1652265817798,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "23261d2ab6c9ed1d",
+        "name" : "Request",
+        "source" : "23261d2ab6c9ed1d.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "cf7f6d7384520c5f",
+        "name" : "Response",
+        "source" : "cf7f6d7384520c5f.json",
+        "type" : "application/json",
+        "size" : 275
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/f77ddba5-241e-4e0c-925f-a886eaafe7c2/click",
+      "time" : {
+        "start" : 1652265817800,
+        "stop" : 1652265817842,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/f77ddba5-241e-4e0c-925f-a886eaafe7c2/selected",
+      "time" : {
+        "start" : 1652265817842,
+        "stop" : 1652265817858,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "485a399f60f0b647",
+        "name" : "Response",
+        "source" : "485a399f60f0b647.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1652265817858,
+        "stop" : 1652265818009,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8af45357cf19d62b",
+        "name" : "Screenshot",
+        "source" : "8af45357cf19d62b.png",
+        "type" : "image/png",
+        "size" : 75896
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "UI Controls Test Suite"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Controls Test Suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checkbox Identification"
+  }, {
+    "name" : "package",
+    "value" : "UI Controls Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-101.0.4951.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ad99e35cb05a81c.json",
+  "parameterValues" : [ "chrome-101.0.4951.54" ]
+}

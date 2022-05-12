@@ -1,0 +1,131 @@
+[ {
+  "uid" : "766a032e69139a88",
+  "name" : "Scrolling and Mouse over",
+  "time" : {
+    "start" : 1652265781962,
+    "stop" : 1652265796919,
+    "duration" : 14957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "633a3cfc06cf3abc",
+  "name" : "End to End Checkout Flow - Smoke",
+  "time" : {
+    "start" : 1652265781321,
+    "stop" : 1652265824374,
+    "duration" : 43053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d265f92700c7673",
+  "name" : "UI Controls",
+  "time" : {
+    "start" : 1652265810653,
+    "stop" : 1652265813743,
+    "duration" : 3090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f47f5138d73c791",
+  "name" : "Dynamic Dropdown Controls",
+  "time" : {
+    "start" : 1652265813744,
+    "stop" : 1652265817019,
+    "duration" : 3275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d52c8ffe3de3701",
+  "name" : "Handling alert messages",
+  "time" : {
+    "start" : 1652265796920,
+    "stop" : 1652265799255,
+    "duration" : 2335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b140f9447440da3",
+  "name" : "Frames switch",
+  "time" : {
+    "start" : 1652265825009,
+    "stop" : 1652265829496,
+    "duration" : 4487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "732cdd02e83bf350",
+  "name" : "Parent and Child windows switch",
+  "time" : {
+    "start" : 1652265820592,
+    "stop" : 1652265825009,
+    "duration" : 4417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cddbd9cd34cbb206",
+  "name" : "End to End Checkout Flow",
+  "time" : {
+    "start" : 1652265781393,
+    "stop" : 1652265800158,
+    "duration" : 18765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fde48dfed4fa42ac",
+  "name" : "Login Fail page - Smoke",
+  "time" : {
+    "start" : 1652265781258,
+    "stop" : 1652265785513,
+    "duration" : 4255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d7bb0acfbc3ddac",
+  "name" : "Login Success page title - Smoke",
+  "time" : {
+    "start" : 1652265785514,
+    "stop" : 1652265821149,
+    "duration" : 35635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ad99e35cb05a81c",
+  "name" : "Checkbox Identification",
+  "time" : {
+    "start" : 1652265817020,
+    "stop" : 1652265818010,
+    "duration" : 990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce63eaf933857da4",
+  "name" : "Web Tables Filter Validation",
+  "time" : {
+    "start" : 1652265800603,
+    "stop" : 1652265850608,
+    "duration" : 50005
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a00264167d5c07ac",
+  "name" : "Web Tables Sort Validation",
+  "time" : {
+    "start" : 1652265799255,
+    "stop" : 1652265800601,
+    "duration" : 1346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

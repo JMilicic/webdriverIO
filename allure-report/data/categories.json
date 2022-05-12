@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 50000ms exceeded. The execution in the test \"Functional Testing on Application Web Tables Filter Validation\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\WebdriverIO\\test\\specs\\functionalScenarios.js)",
+      "children" : [ {
+        "name" : "Web Tables Filter Validation",
+        "uid" : "ce63eaf933857da4",
+        "parentUid" : "428ae76af3db5f3ee4dc762053f9b909",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652265800603,
+          "stop" : 1652265850608,
+          "duration" : 50005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-101.0.4951.54" ]
+      } ],
+      "uid" : "428ae76af3db5f3ee4dc762053f9b909"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

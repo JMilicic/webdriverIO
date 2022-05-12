@@ -1,0 +1,242 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Ecommerce Application",
+    "children" : [ {
+      "name" : "Login Fail page - Smoke",
+      "uid" : "fde48dfed4fa42ac",
+      "parentUid" : "6c8c5f561facedc0b08f79415b94aea4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265781258,
+        "stop" : 1652265785513,
+        "duration" : 4255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    }, {
+      "name" : "End to End Checkout Flow - Smoke",
+      "uid" : "633a3cfc06cf3abc",
+      "parentUid" : "6c8c5f561facedc0b08f79415b94aea4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265781321,
+        "stop" : 1652265824374,
+        "duration" : 43053
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    }, {
+      "name" : "End to End Checkout Flow",
+      "uid" : "cddbd9cd34cbb206",
+      "parentUid" : "6c8c5f561facedc0b08f79415b94aea4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265781393,
+        "stop" : 1652265800158,
+        "duration" : 18765
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    }, {
+      "name" : "Login Success page title - Smoke",
+      "uid" : "3d7bb0acfbc3ddac",
+      "parentUid" : "6c8c5f561facedc0b08f79415b94aea4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265785514,
+        "stop" : 1652265821149,
+        "duration" : 35635
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "6c8c5f561facedc0b08f79415b94aea4"
+  }, {
+    "name" : "Functional Testing on Application",
+    "children" : [ {
+      "name" : "Scrolling and Mouse over",
+      "uid" : "766a032e69139a88",
+      "parentUid" : "30e45bcfaef9a43d6167d86873d729b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265781962,
+        "stop" : 1652265796919,
+        "duration" : 14957
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    }, {
+      "name" : "Handling alert messages",
+      "uid" : "d52c8ffe3de3701",
+      "parentUid" : "30e45bcfaef9a43d6167d86873d729b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265796920,
+        "stop" : 1652265799255,
+        "duration" : 2335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    }, {
+      "name" : "Web Tables Sort Validation",
+      "uid" : "a00264167d5c07ac",
+      "parentUid" : "30e45bcfaef9a43d6167d86873d729b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265799255,
+        "stop" : 1652265800601,
+        "duration" : 1346
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    }, {
+      "name" : "Web Tables Filter Validation",
+      "uid" : "ce63eaf933857da4",
+      "parentUid" : "30e45bcfaef9a43d6167d86873d729b7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1652265800603,
+        "stop" : 1652265850608,
+        "duration" : 50005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "30e45bcfaef9a43d6167d86873d729b7"
+  }, {
+    "name" : "UI Controls Test Suite",
+    "children" : [ {
+      "name" : "UI Controls",
+      "uid" : "6d265f92700c7673",
+      "parentUid" : "a5e1d8b646dac6695d7300a5c2d63a70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265810653,
+        "stop" : 1652265813743,
+        "duration" : 3090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    }, {
+      "name" : "Dynamic Dropdown Controls",
+      "uid" : "6f47f5138d73c791",
+      "parentUid" : "a5e1d8b646dac6695d7300a5c2d63a70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265813744,
+        "stop" : 1652265817019,
+        "duration" : 3275
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    }, {
+      "name" : "Checkbox Identification",
+      "uid" : "3ad99e35cb05a81c",
+      "parentUid" : "a5e1d8b646dac6695d7300a5c2d63a70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265817020,
+        "stop" : 1652265818010,
+        "duration" : 990
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "a5e1d8b646dac6695d7300a5c2d63a70"
+  }, {
+    "name" : "Windows and Frames Miscellanous",
+    "children" : [ {
+      "name" : "Parent and Child windows switch",
+      "uid" : "732cdd02e83bf350",
+      "parentUid" : "31195739383706ec051fe1648610ef91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265820592,
+        "stop" : 1652265825009,
+        "duration" : 4417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    }, {
+      "name" : "Frames switch",
+      "uid" : "3b140f9447440da3",
+      "parentUid" : "31195739383706ec051fe1648610ef91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265825009,
+        "stop" : 1652265829496,
+        "duration" : 4487
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-101.0.4951.54" ]
+    } ],
+    "uid" : "31195739383706ec051fe1648610ef91"
+  } ]
+}

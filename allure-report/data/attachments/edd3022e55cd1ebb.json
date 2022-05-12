@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".lds-ellipsis\"}\n  (Session info: chrome=101.0.4951.54)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0086B8F3+2406643]\n\tOrdinal0 [0x007FAF31+1945393]\n\tOrdinal0 [0x006EC748+837448]\n\tOrdinal0 [0x007192E0+1020640]\n\tOrdinal0 [0x0071957B+1021307]\n\tOrdinal0 [0x00746372+1205106]\n\tOrdinal0 [0x007342C4+1131204]\n\tOrdinal0 [0x00744682+1197698]\n\tOrdinal0 [0x00734096+1130646]\n\tOrdinal0 [0x0070E636+976438]\n\tOrdinal0 [0x0070F546+980294]\n\tGetHandleVerifier [0x00AD9612+2498066]\n\tGetHandleVerifier [0x00ACC920+2445600]\n\tGetHandleVerifier [0x00904F2A+579370]\n\tGetHandleVerifier [0x00903D36+574774]\n\tOrdinal0 [0x00801C0B+1973259]\n\tOrdinal0 [0x00806688+1992328]\n\tOrdinal0 [0x00806775+1992565]\n\tOrdinal0 [0x0080F8D1+2029777]\n\tBaseThreadInitThunk [0x763EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77597A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77597A4E+238]\n"
+}

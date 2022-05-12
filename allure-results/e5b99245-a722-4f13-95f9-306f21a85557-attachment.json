@@ -1,0 +1,174 @@
+{
+  "actions": [
+    {
+      "type": "pointer",
+      "id": "pointer1",
+      "parameters": {
+        "pointerType": "mouse"
+      },
+      "actions": [
+        {
+          "type": "pointerMove",
+          "origin": {
+            "sessionId": "f8b886d8fc83659598060e4e09c7a03f",
+            "elementId": "0228cb3b-b022-41c1-ae24-00b56bef731a",
+            "element-6066-11e4-a52e-4f735466cecf": "0228cb3b-b022-41c1-ae24-00b56bef731a",
+            "selector": "button",
+            "parent": {
+              "sessionId": "f8b886d8fc83659598060e4e09c7a03f",
+              "capabilities": {
+                "acceptInsecureCerts": true,
+                "browserName": "chrome",
+                "browserVersion": "101.0.4951.54",
+                "chrome": {
+                  "chromedriverVersion": "101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904})",
+                  "userDataDir": "C:\\Users\\JOVANA~1\\AppData\\Local\\Temp\\scoped_dir3152_1611463986"
+                },
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:52865"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "windows",
+                "proxy": {},
+                "se:cdp": "ws://10.29.28.52:4444/session/f8b886d8fc83659598060e4e09c7a03f/se/cdp",
+                "se:cdpVersion": "101.0.4951.54",
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:extension:credBlob": true,
+                "webauthn:extension:largeBlob": true,
+                "webauthn:virtualAuthenticators": true
+              },
+              "config": {
+                "specs": [
+                  "./test/specs/**/*.js"
+                ],
+                "suites": {
+                  "debitCard": [
+                    "./test/specs/uiControls.js",
+                    "./test/specs/windowsFrames.js"
+                  ],
+                  "creditCard": [
+                    "./test/specs/POeCommerceE2E.js"
+                  ]
+                },
+                "exclude": [],
+                "logLevel": "info",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 60000,
+                "framework": "mocha",
+                "reporters": [
+                  [
+                    "allure",
+                    {
+                      "outputDir": "allure-results",
+                      "disableWebdriverScreenshotsReporting": false
+                    }
+                  ]
+                ],
+                "services": [
+                  "selenium-standalone"
+                ],
+                "maxInstances": 10,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 120000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "specFileRetries": 0,
+                "specFileRetriesDelay": 0,
+                "specFileRetriesDeferred": false,
+                "reporterSyncInterval": 100,
+                "reporterSyncTimeout": 5000,
+                "cucumberFeaturesWithLineNumbers": [],
+                "autoCompileOpts": {
+                  "autoCompile": true,
+                  "tsNodeOpts": {
+                    "transpileOnly": true
+                  },
+                  "babelOpts": {}
+                },
+                "mochaOpts": {
+                  "timeout": 50000,
+                  "ui": "bdd"
+                },
+                "jasmineOpts": {
+                  "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                  "timeout": 10000
+                },
+                "onPrepare": [],
+                "onWorkerStart": [],
+                "onWorkerEnd": [],
+                "before": [],
+                "beforeSession": [],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [
+                  null
+                ],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [],
+                "after": [],
+                "onComplete": [],
+                "onReload": [],
+                "beforeFeature": [],
+                "beforeScenario": [],
+                "beforeStep": [],
+                "afterStep": [],
+                "afterScenario": [],
+                "afterFeature": [],
+                "baseUrl": "https://rahulshettyacademy.com",
+                "_": [
+                  "run"
+                ],
+                "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+                "config-path": "wdio.conf.js",
+                "ignoredWorkerServices": []
+              }
+            },
+            "isReactElement": false
+          },
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        },
+        {
+          "type": "pause",
+          "duration": 10
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        }
+      ]
+    }
+  ]
+}

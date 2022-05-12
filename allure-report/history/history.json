@@ -1,0 +1,250 @@
+{
+  "4730323cb426df1f07e219adf2dbef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fde48dfed4fa42ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265781258,
+        "stop" : 1652265785513,
+        "duration" : 4255
+      }
+    } ]
+  },
+  "3d02fa14a051ca29b60b305997547423" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d52c8ffe3de3701",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265796920,
+        "stop" : 1652265799255,
+        "duration" : 2335
+      }
+    } ]
+  },
+  "d31f6128ce65209cea007f722bb6b04d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ad99e35cb05a81c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265817020,
+        "stop" : 1652265818010,
+        "duration" : 990
+      }
+    } ]
+  },
+  "9d589047c286738825123b24b0780f5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce63eaf933857da4",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 50000ms exceeded. The execution in the test \"Functional Testing on Application Web Tables Filter Validation\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (D:\\WebdriverIO\\test\\specs\\functionalScenarios.js)",
+      "time" : {
+        "start" : 1652265800603,
+        "stop" : 1652265850608,
+        "duration" : 50005
+      }
+    } ]
+  },
+  "bb163f77a101fc002cb367dcb7add894" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "766a032e69139a88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265781962,
+        "stop" : 1652265796919,
+        "duration" : 14957
+      }
+    } ]
+  },
+  "d9d80191c3e7457fa9364659da28952e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "633a3cfc06cf3abc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265781321,
+        "stop" : 1652265824374,
+        "duration" : 43053
+      }
+    } ]
+  },
+  "4b0cd1e2d5cbbcd06f332f6fbdf76b03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f47f5138d73c791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265813744,
+        "stop" : 1652265817019,
+        "duration" : 3275
+      }
+    } ]
+  },
+  "99786589b0a3b6eb2a4cfa5223b2eb5f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cddbd9cd34cbb206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265781393,
+        "stop" : 1652265800158,
+        "duration" : 18765
+      }
+    } ]
+  },
+  "e9be24ca1b03d32130001238a18cbeda" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "732cdd02e83bf350",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265820592,
+        "stop" : 1652265825009,
+        "duration" : 4417
+      }
+    } ]
+  },
+  "63c4c029f4366e11d93f9b3c340d5a4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a00264167d5c07ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265799255,
+        "stop" : 1652265800601,
+        "duration" : 1346
+      }
+    } ]
+  },
+  "2ebc4e986d6846ade4e4afc033b59661" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d265f92700c7673",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265810653,
+        "stop" : 1652265813743,
+        "duration" : 3090
+      }
+    } ]
+  },
+  "2180c3a71f3e13ac31ba3ff04b6f21d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b140f9447440da3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265825009,
+        "stop" : 1652265829496,
+        "duration" : 4487
+      }
+    } ]
+  },
+  "32f422c3b9b31c12063d1269e9137fb0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d7bb0acfbc3ddac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652265785514,
+        "stop" : 1652265821149,
+        "duration" : 35635
+      }
+    } ]
+  }
+}
